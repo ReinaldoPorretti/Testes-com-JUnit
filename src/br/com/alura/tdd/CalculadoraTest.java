@@ -8,7 +8,7 @@ public class CalculadoraTest {
     @Test
     public void deveriaSomarDoisNumerosPositivos(){
         Calculadora calc = new Calculadora();
-        int soma = calc.somar(5,5);
+        int soma = calc.somar(3,7);
 
         Assertions.assertEquals(10,soma);
     }
